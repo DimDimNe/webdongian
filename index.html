@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web của Diem</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/javascrip.js">
+</head>
+<body>
+    <h1>Chào mừng bạn đến với trang web đơn giản</h1>
+    <button id="button">Nhấp vào đây</button>
+    <p id="message"></p>
+    <script>
+        const button = document.getElementById("button");
+        const message = document.getElementById("message");
+        
+        button.addEventListener("click", function() {
+            message.textContent = "Xin chào !";
+        });
+    </script>
+</body>
+</html>
