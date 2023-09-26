@@ -2,10 +2,24 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     text-align: center;
+
 }
 h1 {
-    color: #333;
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 0; 
+    text-align: center;
+    padding-top: 300px;
+    
 }
+.content {
+    background-image: url('/picture/tong-hop-hinh-anh-dep-nhat-26.jpg');
+    background-size: cover; /* Đảm bảo hình ảnh tràn màn hình */        
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    height: 100vh; /* Độ cao 100% của viewport */
+    
+  }
 #button {
     padding: 10px 20px;
     background-color: #007bff;
